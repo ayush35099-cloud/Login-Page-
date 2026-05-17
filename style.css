@@ -13,12 +13,19 @@ body {
     background: #e8f0fe;
 }
 
+
 .login-box {
     width: 350px;
     padding: 30px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.login-box h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .login-box h2 {
@@ -69,3 +76,4 @@ button:hover {
     text-align: center;
     font-size: 14px;
 }
+
